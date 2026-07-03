@@ -475,19 +475,60 @@ Text Input
 """, unsafe_allow_html=True)
 st.title("🥇 Gold Analysis Agent")
 
-st.markdown(
-"""
-### سامانه هوشمند تحلیل بازار طلا
+st.markdown("""
 
-این سامانه با استفاده از:
+<div style="padding-top:20px;padding-bottom:35px;">
 
-- قیمت لحظه‌ای اونس جهانی
-- اخبار روز
-- هوش مصنوعی
+<h1 class="main-title">
 
-بازار طلا را تحلیل می‌کند.
-"""
-)
+🥇 GOLD AI AGENT
+
+</h1>
+
+<p class="sub-title">
+
+Smart Gold Market Analysis
+
+<br>
+
+با قدرت هوش مصنوعی، اخبار لحظه‌ای و قیمت جهانی
+
+</p>
+
+</div>
+
+""", unsafe_allow_html=True)
+st.markdown("""
+
+<div class="glass">
+
+<h3 style="color:#f6d365;">
+
+🚀 Intelligent Gold Analysis Platform
+
+</h3>
+
+<p style="font-size:17px;color:#d9d9d9;line-height:1.8">
+
+این سامانه با استفاده از
+
+<b>OpenRouter AI</b>
+
+،
+
+<b>Yahoo Finance</b>
+
+و
+
+<b>NewsAPI</b>
+
+قیمت لحظه‌ای طلا، اخبار مهم و تحلیل هوشمند بازار را ارائه می‌کند.
+
+</p>
+
+</div>
+
+""", unsafe_allow_html=True)
 
 st.divider()
 
@@ -554,6 +595,13 @@ st.divider()
 question = st.text_input(
     "سوال خود را درباره بازار طلا بنویس..."
 )
+st.caption("مثال:")
+
+st.caption("• آیا الان زمان مناسبی برای خرید طلاست؟")
+
+st.caption("• اخبار مهم امروز طلا")
+
+st.caption("• قیمت لحظه‌ای اونس جهانی")
 
 if st.button("🔍 تحلیل"):
 
